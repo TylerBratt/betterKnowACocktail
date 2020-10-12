@@ -1,0 +1,449 @@
+html {
+	line-height: 1.15;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+	margin: 0;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+figcaption,
+figure,
+main {
+	display: block;
+}
+figure {
+	margin: 1em 40px;
+}
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+pre {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+a {
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+abbr[title] {
+	border-bottom: none;
+	text-decoration: underline;
+	text-decoration: underline dotted;
+}
+b,
+strong {
+	font-weight: inherit;
+}
+b,
+strong {
+	font-weight: bolder;
+}
+code,
+kbd,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+dfn {
+	font-style: italic;
+}
+mark {
+	background-color: #ff0;
+	color: #000;
+}
+small {
+	font-size: 80%;
+}
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sub {
+	bottom: -0.25em;
+}
+sup {
+	top: -0.5em;
+}
+audio,
+video {
+	display: inline-block;
+}
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+img {
+	border-style: none;
+}
+svg:not(:root) {
+	overflow: hidden;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: sans-serif;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+button,
+input {
+	overflow: visible;
+}
+button,
+select {
+	text-transform: none;
+}
+button,
+html [type='button'],
+[type='reset'],
+[type='submit'] {
+	-webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+fieldset {
+	padding: 0.35em 0.75em 0.625em;
+}
+legend {
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	white-space: normal;
+}
+progress {
+	display: inline-block;
+	vertical-align: baseline;
+}
+textarea {
+	overflow: auto;
+}
+[type='checkbox'],
+[type='radio'] {
+	box-sizing: border-box;
+	padding: 0;
+}
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+	height: auto;
+}
+[type='search'] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+[type='search']::-webkit-search-cancel-button,
+[type='search']::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+details,
+menu {
+	display: block;
+}
+summary {
+	display: list-item;
+}
+canvas {
+	display: inline-block;
+}
+template {
+	display: none;
+}
+[hidden] {
+	display: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: '';
+	clear: both;
+	height: 0;
+}
+
+html {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+html {
+	font-size: 62.5%;
+}
+p,
+ul,
+h1,
+h2,
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background-image: url(./assets/bar.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.wrapper {
+	width: 90%;
+	max-width: 1275px;
+	margin: 0 auto;
+}
+
+i.fa-bars {
+	font-size: 4rem;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+h1 {
+	padding-top: 60px;
+	font-size: 10rem;
+	text-align: center;
+	text-shadow: 6px 6px 8px #5a5858;
+	color: rgb(224, 174, 45);
+	font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+	font-size: 3.8rem;
+	padding: 1.8rem;
+	font-family: 'Amatic SC', cursive;
+	display: inline-block;
+	width: 225px;
+}
+
+p {
+	font-size: 1.8rem;
+	padding-left: 1.8rem;
+	padding-top: 4.5rem;
+}
+
+.ingredients {
+	padding-top: 0.5rem;
+	padding-left: 3rem;
+	font-size: 1.6rem;
+	list-style-type: circle;
+}
+
+ul {
+	list-style: none;
+}
+
+ul.slidingMenu {
+	position: fixed;
+	z-index: 10;
+	width: 20%;
+	right: -20%;
+	top: 0;
+	height: 100%;
+	transition: all 0.5s;
+}
+
+ul.slidingMenu button {
+	font-family: 'Slabo 27px', serif;
+	border-bottom: 1px solid grey;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	width: 100%;
+	padding: 20px;
+	transition: all 0.3s;
+}
+
+ul.slidingMenu button:hover,
+ul.slidingMenu button:focus {
+	background: rgb(224, 174, 45);
+}
+
+#ings {
+	width: 100%;
+	font-size: 1.8rem;
+}
+
+#poison {
+	width: 100%;
+	font-size: 1.8rem;
+}
+
+input[type='checkbox']:checked + div.flexMenu ul.slidingMenu {
+	right: 0;
+}
+
+input[type='checkbox'] {
+	display: none;
+}
+
+label[for='toggle'] {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	color: white;
+	z-index: 10;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.popup {
+	display: flex;
+	flex-direction: column;
+	background-image: url(./assets/paperNapkin.png);
+	position: fixed;
+	transform: rotate(-10deg);
+	background-size: cover;
+	bottom: 20px;
+	height: 450px;
+	width: 450px;
+}
+.image {
+	display: flex;
+	justify-content: flex-end;
+	width: max-content;
+	position: absolute;
+	right: 0;
+}
+
+#glass {
+	display: inline-block;
+	width: 200px;
+	padding-right: 30px;
+	position: relative;
+	top: 0;
+}
+.hidden {
+	display: none;
+}
+
+.napkin {
+	height: 150%;
+	width: 150%;
+}
+
+div.list {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+div.list::-webkit-scrollbar {
+	display: none;
+}
+ul.drinkType {
+	font-size: 2rem;
+	padding-left: 20px;
+}
+
+ul.drinkType li {
+	list-style: none;
+	font-size: 2rem;
+}
+
+ul.drinkType a {
+	text-decoration: none;
+	color: blue;
+}
+
+@media (max-width: 1000px) {
+	.cocktail {
+		display: flex;
+	}
+	.popup {
+		width: 400px;
+		height: 400px;
+	}
+	.drinkInfo {
+		width: 275px;
+	}
+}
+@media (max-width: 800px) {
+	.cocktail {
+		width: 400px;
+	}
+}
+@media (max-width: 670px) {
+	.cocktail {
+		width: 300px;
+	}
+	div.flexMenu {
+		display: flex;
+		flex-direction: row;
+	}
+	button {
+		display: inline-block;
+	}
+	ul.slidingMenu {
+		width: 150px;
+		right: -150px;
+	}
+	.popup {
+		transform: translate(0);
+	}
+}
+@media (max-width: 400px) {
+	.popup {
+		width: 350px;
+		height: 350px;
+	}
+}

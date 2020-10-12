@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=scr, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Slabo+27px&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Better Know a Cocktail</title>
+	</head>
+	<body>
+		<header>
+      <div class="cocktail">
+        <h1>Better know a cocktail</h1>
+      </div>
+			<nav>
+				<label for="toggle"><i class="fa fa-bars"></i></label>
+				<input type="checkbox" id="toggle" name="toggle" />
+        <div class="flexMenu">
+				  <ul class="slidingMenu">
+            <li>
+              <button class="random">Random Cocktail</button>
+            </li>
+            <li>
+              <form action=""></form>
+              <button type="submit" class="poison">Pick your Poison</button>
+              <input type="text" name="poison" id="poison" placeholder="Gin" />
+            </li>
+            <li>
+              <form action=""></form>
+              <button type="submit" class="ings">What's in it?</button>
+              <input
+                type="text"
+                name="ings"
+                id="ings"
+                placeholder="Negroni"
+                value=""
+              />
+            </li>
+            <li>
+              <button class="about">About</button>
+            </li>
+          </ul>
+        </div>
+			</nav>
+
+			<div class="container">
+				<div class="popup hidden">
+          <h2 class="drinkName"></h2>
+					<div class="image">
+            <img id="glass" src="" alt="">
+          </div>
+					<div class="list">
+						<ul class="drinkType"></ul>
+					</divclass>
+					<ul class="ingredients"></ul>
+					<p class="drinkInfo"></p>
+					
+				</div>
+			</div>
+		</header>
+
+		<script
+			src="https://code.jquery.com/jquery-3.4.0.min.js"
+			integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+			crossorigin="anonymous"
+		></script>
+		<script src="script.js"></script>
+	</body>
+</html>
